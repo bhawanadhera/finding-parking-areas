@@ -116,6 +116,5 @@ def get_parking():
 
 # ================= RUN =================
 
-if __name__ == "__main__":
     init_db()
-    app.run(debug=True, host="localhost")  # use localhost not 127.0.0.1
+    
